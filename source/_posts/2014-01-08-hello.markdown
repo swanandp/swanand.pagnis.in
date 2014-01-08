@@ -6,8 +6,6 @@ comments: true
 categories: [hello-world]
 ---
 
-# Hello, World!
-
 Wikipedia tells us:
 
 > A "Hello World" program has become the traditional first program that many people learn. In general, it is simple enough so that people who have no experience with computer programming can easily understand it, especially with the guidance of a teacher or a written guide. Using this simple program as a basis, computer science principles or elements of a specific programming language can be explained to novice programmers. Experienced programmers learning new languages can also gain a lot of information about a given language's syntax and structure from a hello world program.
