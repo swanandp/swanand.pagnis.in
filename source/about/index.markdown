@@ -7,6 +7,8 @@ sharing: true
 footer: true
 ---
 
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 # Welcome!
 
 ## I am interested in
@@ -29,6 +31,12 @@ footer: true
 
 - If you look at the previous sections, you will find there is a good overlap!  That is a sign of me doing the things that I love to do.  Experienced folks can tell that this is always a good combination!
 
+
 ## Drop me a line any time
 
 - `swanand [at] pagnis [dot] in`
+- <a href="https://twitter.com/{{ site.twitter_user }}" style="text-decoration: none;">
+    <i class="fa fa-twitter"></i> {{ site.twitter_user }}
+  </a>
+- [<i class="fa fa-github"></i> {{ site.github_user }}](https://github.com/swanandp)
+
