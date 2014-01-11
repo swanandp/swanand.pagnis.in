@@ -9,7 +9,7 @@ footer: true
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-# Welcome!
+# About me
 
 ## I am interested in
 
@@ -39,4 +39,4 @@ footer: true
     <i class="fa fa-twitter"></i> {{ site.twitter_user }}
   </a>
 - [<i class="fa fa-github"></i> {{ site.github_user }}](https://github.com/swanandp)
-
+- [<i class="fa fa-stack-overflow"></i> swanand](http://stackoverflow.com/users/18768/swanand)
