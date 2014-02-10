@@ -14,7 +14,7 @@ These technologies allow two-way communication between server and client and you
 
 In my talk I aim to introduce the concepts to the audience and then follow it up with code examples and best practises.  As most of the audience would be interested hear about Rails integration, I will cover all examples in the Rails context.  If you are going to be there, do read the Wikipedia page of the involved concepts and then come to the talk, I am certain you will gain a lot more this way.
 
-Oh and I forgot to mention, RubyConfIndia offers these awesome badge:
+Oh and I forgot to mention, RubyConfIndia offers this awesome badge:
 
 <a href="http://rubyconfindia.org/"><img src="http://rubyconfindia.org/2014/images/badges/180/speaker.png"></a>
 
