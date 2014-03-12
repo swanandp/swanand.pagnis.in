@@ -13,17 +13,17 @@ footer: true
 
 ## I am interested in
 
-- Build great software that makes lives easier, adds value
-- Work with great, like minded people and learn from them
-- Build communities, attend meetups, organize conferences
-- Contribute to open source
+- Building great software that makes lives easier, adds value
+- Working with great, like minded people and learn from them
+- Building communities, attend meet-ups, organize conferences
+- Making significant contributions to open source
 
 
 ## I am good at  
 
-- Building software
-- Problem Solving
-- Mentoring juniors, building people
+- Building usable, maintainable software
+- Problem Solving, often of analytical nature, but not necessarily so
+- Mentoring juniors, building people, building teams
 - Building and shaping communities
 
 
