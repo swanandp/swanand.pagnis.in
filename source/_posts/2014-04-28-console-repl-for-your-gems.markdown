@@ -64,4 +64,12 @@ And subsequently
 
 ```
 
+
 With this, I bow out and promise to come back with more palatable content later.
+
+
+<strong>Edit</strong>: As [Emil][1] pointed out, `pry` uses the same trick in `pry --gem`[<sup>#</sup>][2].
+
+
+[1]: https://twitter.com/emilsoman
+[2]: https://github.com/pry/pry/blob/master/lib/pry/cli.rb#L181
