@@ -8,6 +8,8 @@ categories:
 
 [India's premier Ruby conference][1] is happening at Goa this year, in the third week of March.  This year, my talk proposal got accepted and I am up on [day 1 at 2.30pm][2].
 
+<!-- more -->
+
 I've been digging into real time web applications for the last few months and SSE (Server Sent Events) and WebRTC caught my attention.  [Pusher][3], a fantastic service that allows you easily implement a pub/sub model in your application, uses SSE as a transport.  And [WebRTC][4] is a recent addition to the fore. Well, not so recent, as Google open sourced it in 2011.  A standard API is currently being drafted by the W3C.
 
 These technologies allow two-way communication between server and client and you no longer have to depend on polling to update the clients.  There are arguments that this breaks the hypermedia agreement, and is harder to scale than traditional stateless Request/Response style of serving web resources.  I haven't yet formed an opinion on this, because I am clearly blinded by the awesomeness and ease of using these technologies.
@@ -16,7 +18,7 @@ In my talk I aim to introduce the concepts to the audience and then follow it up
 
 Oh and I forgot to mention, RubyConfIndia offers this awesome badge:
 
-<a href="http://rubyconfindia.org/"><img src="http://rubyconfindia.org/2014/images/badges/180/speaker.png"></a>
+<a href="http://rubyconfindia.org/"><img src="https://raw.githubusercontent.com/rubyconfindia/rci2014/master/images/badges/180/speaker.png"></a>
 
 
 [1]: http://rubyconfindia.org/2014

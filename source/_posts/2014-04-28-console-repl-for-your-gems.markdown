@@ -3,10 +3,12 @@ layout: post
 title: "Console your gems: Add REPL to them"
 date: 2014-04-28 12:27:34 +0530
 comments: true
-categories: rake repl
+categories: rake repl how-tos
 ---
 
 When you are working on a Ruby gem or a Ruby library ( why you would have a Ruby library that isn't a gem is beyond me ), it is <s>always</s> often desirable to have a Pry session loaded with the gem your working on.  In fact, I'll go out on a limb and say that REPL driven development is a a must-do when writing libraries.  REPLs are like ice added to your beer when it isn't cold anymore, except this ice is made from the same beer.
+
+<!-- more -->
 
 A lot of gems ship with this functionality, but if not, it is extremely easy to add one.  To avoid polluting every gem with our code, we can utilize the concept of Rake's global tasks.  Rake's default source for looking at tasks or <span title="Google it">rules</span> is the Rakefile and all files that are declared as source files in the Rakefile; typically `*.rake` files in your tasks folder, but this can vary depending on your project.  However, rake also looks at `~/.rake/*.rake` if we ask it to. So let's create a file called `~/.rake/console.rake` and add the following task to it:
 
@@ -72,4 +74,4 @@ With this, I bow out and promise to come back with more palatable content later.
 
 
 [1]: https://twitter.com/emilsoman
-[2]: https://github.com/pry/pry/blob/master/lib/pry/cli.rb#L181
+[2]: https://github.com/pry/pry/blob/01360a684443f9e516578566afe6f41d92f63419/lib/pry/cli.rb#L209
