@@ -24,11 +24,11 @@ Most APIs I've worked with have one of the following authentication mechanism:
 - API key in query params / request body
 
 
-I am really fond of examples, so let's consider an example.  A RESTful service, where we interact with the "Post" resource.  We're able to list posts, get details about a post, create, update & delete a post.  The service demands HTTP Basic auth, and JSON encoding.
+I am really fond of examples, so let's consider an example.  A RESTful service, where we interact with the "Article" resource.  We're able to list articles, get details about an article, create, update & delete an article.  The service demands HTTP Basic auth, and JSON encoding.
 
 ```ruby
 
-class PostsService
+class ArticlesService
   include HTTParty
 
   base_uri "https://api.example.com"
@@ -49,30 +49,30 @@ class PostsService
   end
 
   def index
-    get("posts")
+    get("articles")
   end
 
-  def show(post_id)
-    get("posts/#{post_id}")
+  def show(article_id)
+    get("articles/#{article_id}")
   end
 
   def create(attributes)
     self.class.post(
-      endpoint("posts"),
+      endpoint("articles"),
       default_options.merge(body: attributes.to_json)
     )
   end
 
-  def update(post_id, attributes)
+  def update(article_id, attributes)
     self.class.patch(
-      endpoint("posts/#{post_id}"),
+      endpoint("articles/#{article_id}"),
       default_options.merge(body: attributes.to_json)
     )
   end
 
-  def destroy(post_id)
+  def destroy(article_id)
     self.class.delete(
-      endpoint("posts/#{post_id}"),
+      endpoint("articles/#{article_id}"),
       default_options
     )
   end
@@ -108,12 +108,12 @@ Here's why I like this code:
 
 ```ruby
 
-service = PostsService.new
+service = ArticlesService.new
 
 pp service.index
 # []
 
-# Create a post
+# Create an article
 response = service.create(
   name: "Star Trek: A new hope",
   body: "A play about how Frodo is
@@ -124,12 +124,12 @@ response = service.create(
 
 # Made a mistake in the title, update it
 service.update(
-  response['post']['id'],
+  response['article']['id'],
   name: "Star Wars: Into the darkness"
 )
 
-# Delete that abomination of a post
-service.delete(response['post']['id'])
+# Delete that abomination of an article
+service.delete(response['article']['id'])
 
 ```
 
@@ -167,7 +167,7 @@ def initialize(user)
 end
 ```
 
-In addition to basic auth,  we should now send in an oauth style "Bearer" token:
+In addition to basic auth,  we can also send in an oauth style "Bearer" token:
 
 ```ruby
 @headers = {
