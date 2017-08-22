@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deconstructing SQL Queries"
+title: "Demystifying SQL Queries"
 date: 2017-08-19 11:36:19 +0530
 comments: true
 categories: sql relational-algebra sets
@@ -22,7 +22,7 @@ Not hard to draw parallels to other known concepts: <!-- more -->
 
 ## Tables are sets
 
-The bare minimum way of interacting with a set is to take a look at all or some of its elements. That is exactly what this query is doing. We're selecting a subset of a set elements based on a few conditions, and representing each element of this subset in some format.  Recall that a subset of a set is _also a set_ in itself.  Which allows us to do something like:
+The bare minimum way of interacting with a set, is to take a look at _some or all_ of its elements. That is exactly what this query is doing. We're selecting a subset of a set, based on a few conditions, and representing each element of this subset in some format.  Recall that a subset of a set is _also a set_ in itself.  Which allows us to do something like:
 
 ```sql
 SELECT something
@@ -35,6 +35,8 @@ WHERE conditions
 ```
 
 We have a nested query, where instead of selecting from a table, we're selecting from the result of selecting from a table. [^1]
+
+
 Sets can have labels or aliases, so:
 
 ```sql
@@ -47,7 +49,9 @@ FROM (
 WHERE conditions
 ```
 
-An assertion is in order: **a select query operates upon a set, and returns a set**.  Naturally, a set can be a that of a single element as well.
+We seem to be doing some recursive looking stuff, and I find it beautiful.
+
+Which also means, an assertion is in order: **a select query operates upon a set, and returns a set**.  Naturally, a set can be a that of a single element as well.
 
 ```sql
 SELECT COUNT(*) FROM table WHERE conditions
@@ -64,7 +68,8 @@ FROM
 WHERE conditions
 ```
 
-Sets can be unioned or intersected:
+
+So a select query operates upon a set, and returns a set, and we know that sets can be unioned or intersected:
 
 ```sql
   SELECT something
@@ -79,8 +84,11 @@ UNION -- or INTERSECTION
 Notice that "something" and "the same something" are important.  We can only union or intersection similar sets.  Apples and oranges can't be unioned in the relational algebra land.
 
 ## Joins are Sets
+
 Let's talk about joins.  Chances are, at some point in life you've written in INNER JOIN instead of an OUTER JOIN and got incorrect results.  Or something along those lines.  Joins can be very opaque, even to a regular practitioner.
+
 A few things are important when considering joins:
+
 1. A join is a product of 2 sets. Always. Multi-table joins are just "first join these two", "take the result" and "join the result with the next".
 2. Joins are always performed on sets.  So you can "join" any of the above mentioned sets, and you're still good. Do note that language semantics dictate that you use aliases to disambiguate.
 3. NULL is always a part of each set.  Implicitly so, for practicality.
@@ -175,7 +183,7 @@ NULL    | [c, z]
 [3, c]  | [c, z]
 ```
 
-Rearranging a little for better understanding:
+Rearranging a little, for better understanding:
 
 ```sql
 numbers | letters | included in
@@ -191,8 +199,13 @@ NULL    | [b, y]  | Full and Right
 NULL    | [c, z]  | Full and Right
 ```
 
+Left and Right are determined from the join syntax.  When A joins B, A is Left, and B is Right.
+
+While attempting to write a join query, I encourage you to work out your join on paper first, with dummy data.  Specially with multi-table joins.
+
 ## Functions are Sets
-That sounded nice, but it's not true. Functions aren't sets, they _operate_ on sets.  Remember, a single value is also a set, so each function takes a set as an argument, and returns a set.
+
+That sounded nice, but it isn't true. Functions aren't sets, they _operate_ on sets.  Remember, a single value is also a set, so **each function accepts a set as an argument, and returns a set**.
 
 ```sql
 SELECT anything.today
@@ -206,11 +219,13 @@ My apologies for dropping a query on you without any domain context, but conside
 CREATE OR REPLACE FUNCTION co_branches(branch_id BIGINT)
   RETURNS TABLE(id BIGINT)
 AS $function$
+
 SELECT b2.id
 FROM
   restaurant_branches b1
   JOIN restaurant_branches b2 ON b1.restaurant_id = b2.restaurant_id
 WHERE b1.id = branch_id;
+
 $function$
 LANGUAGE SQL;
 
@@ -221,7 +236,11 @@ SELECT id, (SELECT COUNT(*) FROM COBRANCHES(id)) as branch_count FROM restaurant
 
 ```
 
-Another assertion is in order: **Sets and set operations tend to compose well.**  Functional programming nerds practically live by this motto.  Fundamentally, SQL is not so different.  An important thing to keep in mind that this composing behaviour is mainly about the data and how the data is interpreted. The query language itself leaves a lot to be desired when it comes to composing.  A lot of things like aliases, joins can easily be taken care by a competent library.  More or on this, and the advantages of using something like ARel in a later post.
+We're basically replacing a query with a function.  And we learned that both SELECT queries and Functions operate on sets, and return sets.
+
+Which brings me to another assertion: **Sets and set operations tend to compose well.**  This is very important! Functional programming nerds practically live by this motto.  Once you have small units that compose well, you can build complex units with relative simplicity.
+
+Fundamentally, SQL is not so different.  An important thing to keep in mind that this composing behaviour is mainly about the data and how the data is interpreted and processed. The query language itself leaves a lot to be desired when it comes to composing.  A lot of things like aliases, joins can easily be taken care by a competent library.  But, more or on this, and the advantages of using something like ARel in a later post.
 
 
 ## Reading is destructuring, Writing is composing
