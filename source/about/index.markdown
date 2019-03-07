@@ -10,18 +10,24 @@ footer: true
 
 # About me
 
+## What a I doing right now?
+
+- Principal Engineer at First.io, and part of the product team.
+- Running the Bangalore Ruby meetup group: https://www.meetup.com/Bangalore-Ruby-Users-Group/
+- Teaching people get better at using relational databases, PostgreSQL in particular: https://postgres-workshop.com/ 
+
 ## I am interested in
 
 - Building great software that makes lives easier, adds value
-- Working with great, like minded people and learn from them
-- Building communities, attend meet-ups, organize conferences
+- Working with great, like minded people and learning from them
+- Building communities, attending meet-ups, organizing conferences
 - Making significant contributions to open source
-
+- Deep Work. I spoke about my practice at RubyConf India 2019: https://youtu.be/korBf8lOU30?t=86
 
 ## I am good at  
 
 - Building usable, maintainable software
-- Problem Solving, often of analytical nature, but not necessarily so
+- Problem solving, often of analytical nature, but not necessarily so
 - Mentoring juniors, building people, building teams
 - Building and shaping communities
 
