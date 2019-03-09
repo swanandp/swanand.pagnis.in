@@ -16,23 +16,29 @@ footer: true
 - Running the Bangalore Ruby meetup group: https://www.meetup.com/Bangalore-Ruby-Users-Group/
 - Helping people get better at using relational databases; PostgreSQL in particular: https://postgres-workshop.com/ 
 
-## I am interested in
+## I am interested in:
 
-- Building great software that makes lives easier adds value
-- Working with great, like-minded people and learning from them
-- Building communities, attending meet-ups, organizing conferences
-- Making significant contributions to open source
+- Building great software that makes lives easier and adds value
+- Working with great people, learning from them, learning with them.
+- Building communities, attending and organising meet-ups, attending and organizing conferences
 - Deep Work. I spoke about my practice at RubyConf India 2019: https://youtu.be/korBf8lOU30?t=86
+- Making significant contributions to free and open source software
 
-## I am good at  
+## I am good at: 
 
-- Writing clean, well-tested code
+- Writing clean, well-tested software 
 - Problem-solving; often of analytical nature, but not limited to it
-- Mentoring juniors, building people, building teams
+- Mentoring people, building people, building teams
 - Building and shaping communities
 
+## Recent Talks:
 
-## Reach me at
+- The Deep Work Mentality: https://youtu.be/korBf8lOU30?t=86
+- The Well Rounded Engineer: https://speakerdeck.com/swanandp/the-well-rounded-engineer
+- Combinator Parsing: https://speakerdeck.com/swanandp/combinator-parsing 
+
+
+## You can reach me at:
 
 - `swanand [at] pagnis [dot] in`
 - <a href="https://twitter.com/{{ site.twitter_user }}" style="text-decoration: none;">
