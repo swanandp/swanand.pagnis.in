@@ -21,7 +21,7 @@ footer: true
 - Building great software that makes lives easier and adds value
 - Working with great people, learning from them, learning with them.
 - Building communities, attending and organising meet-ups, attending and organizing conferences
-- Deep Work. I spoke about my practice at RubyConf India 2019. Here are the slides: https://speakerdeck.com/swanandp/the-deep-work-mentality
+- Deep Work. I spoke about my practice at RubyConf India 2019. [Video](https://youtu.be/korBf8lOU30?t=156). [Slides](https://speakerdeck.com/swanandp/the-deep-work-mentality)
 - Making significant contributions to free and open source software
 
 ## I am good at: 
