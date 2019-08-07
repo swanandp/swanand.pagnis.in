@@ -12,7 +12,7 @@ footer: true
 
 ## What am I doing right now?
 
-- Principal Engineer at First.io, and part of the product team.
+- Building the core platform and team at [Deserve](https://www.deserve.com/).
 - Running the Bangalore Ruby meetup group: https://www.meetup.com/Bangalore-Ruby-Users-Group/
 - Helping people get better at using relational databases; PostgreSQL in particular: https://postgres-workshop.com/ 
 
@@ -21,12 +21,12 @@ footer: true
 - Building great software that makes lives easier and adds value
 - Working with great people, learning from them, learning with them.
 - Building communities, attending and organising meet-ups, attending and organizing conferences
-- Deep Work. I spoke about my practice at RubyConf India 2019. [Video](https://youtu.be/korBf8lOU30?t=156). [Slides](https://speakerdeck.com/swanandp/the-deep-work-mentality)
+- Deep Work. I [spoke about my practice](https://youtu.be/korBf8lOU30?t=156) at RubyConf India 2019. [Slides here](https://speakerdeck.com/swanandp/the-deep-work-mentality)
 - Making significant contributions to free and open source software
 
 ## I am good at: 
 
-- Writing clean, well-tested software 
+- Writing robust, well-tested software 
 - Problem-solving; often of analytical nature, but not limited to it
 - Mentoring people, building people, building teams
 - Building and shaping communities
@@ -37,7 +37,7 @@ footer: true
 - The Well Rounded Engineer: https://speakerdeck.com/swanandp/the-well-rounded-engineer
 - Combinator Parsing: https://speakerdeck.com/swanandp/combinator-parsing 
 
-
+    
 ## You can reach me at:
 
 - `swanand [at] pagnis [dot] in`
