@@ -25,7 +25,7 @@ They all differ in their effectiveness and difficulty of implementation.
 <!-- more -->
 
 ## The Science
-The [Fogg Behaviour Model™](https://www.behaviormodel.org/) states that behavior occurs at the intersection of 3 things:
+The [Fogg Behavior Model](https://www.behaviormodel.org/) states that behavior occurs at the intersection of 3 things:
 
 1. *Trigger*. A prompt for an action
 2. *Motivation* to do the action
