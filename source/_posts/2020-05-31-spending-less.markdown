@@ -31,6 +31,11 @@ The [Fogg Behavior Model](https://www.behaviormodel.org/) states that behavior o
 2. *Motivation* to do the action
 3. *Ability* to perform the action
 
+<img src="/assets/b-eq-map_small@2x.jpg" alt="Fogg Behavior Model" width="75%" />
+
+<sub>Image used with appropriate permission from BJ Fogg</sub>
+
+
 Some examples:
 
 * Upon encountering a bug 🐞 in the Linux OS (_prompt_), I may have a strong desire (_motivation_) to submit a patch to the Linux kernel, but it's well beyond my _ability_ to do so. I will not do it. 😅
