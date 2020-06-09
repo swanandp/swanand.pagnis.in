@@ -4,6 +4,7 @@ title: "Hello, world!"
 date: 2014-01-08 14:49:26 +0530
 comments: true
 categories: [hello-world]
+subscribe: "disable"
 ---
 
 Wikipedia tells us:
