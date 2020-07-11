@@ -3,7 +3,7 @@ layout: post
 title: "A Job Post from the Past"
 date: 2020-06-04 20:38:32 +0530
 comments: true
-categories: greatest-hits job-post hiring
+categories: greatest-hits job-post hiring interviews
 ---
 
 Back in 2019, I wrote a job post that I soon became fond of. Proud even. It received healthy attention and consistent praise:
