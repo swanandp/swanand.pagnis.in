@@ -7,6 +7,7 @@ categories:
   - entrepreneurship
   - makers
   - business
+  - how-tos
 ---
 
 At the 2017 MicroConf, [Ben Orenstein](https://twitter.com/r00k) spoke about "The Blind Spots of the Developer Entrepreneur". It was [a talk packed with insights](https://www.youtube.com/watch?v=n078RDNz6jY) and actionable advice for the developer-entrepreneur.

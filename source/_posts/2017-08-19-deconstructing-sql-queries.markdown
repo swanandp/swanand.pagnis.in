@@ -3,7 +3,7 @@ layout: post
 title: "Demystifying SQL Queries"
 date: 2017-08-19 11:36:19 +0530
 comments: true
-categories: sql relational-algebra sets
+categories: sql relational-algebra sets postgres mysql
 ---
 
 Let's look at an average, everyday SQL query:

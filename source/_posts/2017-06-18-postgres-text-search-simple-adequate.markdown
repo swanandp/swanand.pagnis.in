@@ -3,7 +3,7 @@ layout: post
 title: "Postgres Text Search: Simple, Adequate"
 date: 2017-06-18
 comments: true
-categories: postgres full-text-search how-tos
+categories: sql postgres full-text-search how-tos
 ---
 
 Searching for text within your data is a frequently requested feature, and often leads to excellent UX.  Gmail's web interface is entirely built on top of search. No wonder databases have supported basic text search operators like ~, LIKE, ILIKE etc for a long time.  But they often fall short or give inaccurate results, as we try to evolve the feature.  Say, searching in multiple languages, or searching for different variants of the same word: consider realistically, realistic, and realist, or [searching one word, but not the other][goog-example].

@@ -3,7 +3,10 @@ layout: post
 title: "Behavioral Science and the Art of Spending Less"
 date: 2020-05-31 20:30:05 +0530
 comments: true
-categories: personal-finance, behavioral-science
+categories: 
+    - personal-finance
+    - behavioral-science
+    - how-tos
 ---
 
 There are four popular ways of growing your wealth:
