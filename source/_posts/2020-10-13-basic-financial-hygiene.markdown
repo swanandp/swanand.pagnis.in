@@ -26,7 +26,8 @@ Save one full year of expenses in capital-preserved, safe financial instruments.
 
 It's quite likely that you are not in a position to put the whole year's worth in one go. In such a case, aim lower and build it up. Three months first, followed by six, then maybe ten, and finally, the whole year. Find your path.
 
-A contingency fund is far more critical than low performing investments. Liquidate your worst performing and worst future-outlook assets if you need to. Many people have useless LIC policies, ULIPs, under-performing mutual funds. Research and swap them out. Some well-known avenues for research:
+
+A contingency fund is far more critical than low performing investments. Liquidate your worst performing and worst future-outlook assets if you need to. Many people have a baggage of LIC policies, ULIPs, under-performing mutual funds. Often taken from well-meaning family friends who don't really know better. Research and swap them out. Guilt-free! Some well-known avenues for research:
 
 * https://capitalmind.in/
 * https://indmoney.com/
@@ -35,6 +36,8 @@ A contingency fund is far more critical than low performing investments. Liquida
 
 **Why is your emergency fund necessary?**   
 A contingency fund instantly improves your risk appetite. You can afford some additional risk because your baseline is now firm.
+
+A contingency fund will make you look at your current debts and liabilities. Do you have high-interest loans? Are you earning from your mutual funds but losing out on the interest? Now would be a good time evaluate and get rid of those as much as you can. Stop bad debt.
 
 It also helps you get into a positive mindset. You can do things like taking a break, leaving a toxic job, trying something new, spending time with family, maybe even vacations. When you are not worried about putting food on the table, you can think better about other essential items.  🧘🏼‍♂️
 
@@ -47,7 +50,12 @@ It's liberating.
 ## 2. Term and Health Insurance
 Get appropriate amounts of insurance. How much is appropriate? 
 
-**Term insurance:** 20x of your family's total annual expenses. If you Google around, you will find plenty of credible calculators from reputed institutions. But 15x or 20x is a good number. Start there.
+**Term insurance:** 20x of your family's total annual expenses. If you Google around, you will find plenty of credible calculators from reputed institutions. But 15x or 20x is a good number. Start there. 
+
+Term insurance is needed many reasons, the two essentials reasons are this: 
+
+* Your existing liabilities shouldn't burden your dependents
+* Loss of an earning member shouldn't put them in a position where they need to scramble for putting food on the table. Remember the reasons we set up the contingency fund? Similar reasoning.  
 
 Optimize for a hassle-free disbursement and high settlement ratio, not merely for a low premium. When the need arises to claim your insurance, your family and loved ones will be grieving. They won't be in a position to think through. Don't set them up for further doom. 🤞🏼
 
@@ -81,6 +89,6 @@ Spending as little as you can and investing as much as you can is almost a lifes
 
 PMS is an excellent choice if you can afford it. For advisory and planning, the world is moving towards a "fee-only" model. It's hard to make the incentives align in a commissions model. Services like Clearcase are making it easy for us to take our own investment decisions. YMMV!
 
-Let your budget and risk appetite guide you. Consult experts for all critical decisions. 
+Let your budget and risk appetite guide you. Consult experts for all critical and specific decisions like where to invest and which policies to take.
 
 Happy investing! 💰
