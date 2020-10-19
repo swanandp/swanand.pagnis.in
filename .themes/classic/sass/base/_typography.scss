@@ -1,6 +1,7 @@
 $blockquote: $type-border !default;
+//$sans: "Spectral", "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
 $sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
-$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+$serif: "Spectral", "PT Serif", Georgia, Times, "Times New Roman", serif !default;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
 $heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 $header-title-font-family: $heading-font-family !default;
@@ -27,7 +28,7 @@ body > header h2 {
 }
 
 body {
-  line-height: 1.5em;
+  line-height: 1.75em;
   color: $text-color;
   @extend .serif;
 }
