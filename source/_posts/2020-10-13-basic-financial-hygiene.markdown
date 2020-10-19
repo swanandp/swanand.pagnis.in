@@ -87,7 +87,7 @@ Spending as little as you can and investing as much as you can is almost a lifes
 * Certified financial planners (CFP)
 * Self-guided investments
 
-PMS is an excellent choice if you can afford it. For advisory and planning, the world is moving towards a "fee-only" model. It's hard to make the incentives align in a commissions model. Services like Clearcase are making it easy for us to take our own investment decisions. YMMV!
+PMS is an excellent choice if you can afford it. For advisory and planning, the world is moving towards a "fee-only" model. It's hard to make the incentives align in a commissions model. Services like Smallcase are making it easy for us to take our own investment decisions. YMMV!
 
 Let your budget and risk appetite guide you. Consult experts for all critical and specific decisions like where to invest and which policies to take.
 
